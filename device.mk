@@ -247,6 +247,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@1.0-service-sdm
 
+# Lineage Hardware
+BOARD_HARDWARE_CLASS += \
+    $(VENDOR_PATH)/lineagehw
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
