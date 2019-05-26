@@ -404,3 +404,7 @@ PRODUCT_BOOT_JARS += \
 # AdvancedControls
 PRODUCT_PACKAGES += \
     AdvancedControls \
+
+#Thermal
+PRODUCT_PACKAGES += \
+    ThermalController
